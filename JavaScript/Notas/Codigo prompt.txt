@@ -1,0 +1,7 @@
+PAGINA DE CODIGO
+
+const prompt = require("prompt-sync") ({ sigint: true});
+
+TERMINAL
+
+npm i prompt-sync
