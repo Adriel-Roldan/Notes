@@ -9,20 +9,6 @@ function noParesDeContarImparesHasta (numero){
     }
     console.log(noParesDeContarImparesHasta(4))
 
- 
-
-    function puedePasar(nombre) {
-        if (nombre == "Cosme Fulanito"){
-            pase = false;
-        }
-        else {
-            pase = true;
-        }
-          return pase;
-          
-      } 
-      
-      console.log (puedePasar("Natalia")); 
 
       function tablaDeMultiplicar(numero) {
         let multiplo = 1;
