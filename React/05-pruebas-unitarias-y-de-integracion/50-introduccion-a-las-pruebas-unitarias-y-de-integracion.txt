@@ -1,0 +1,42 @@
+QUE SON LAS PRUEBAS? 
+
+1) No son una perdida de tiempo. 
+
+TIPOS DE PRUEBAS
+
+Pruebas unitarias: Son pruebas enfocadas en pequeñas funcionalidades de la aplicacion. 
+
+Pruebas de integracion: Estan enfocadas en como reaccionan varias piezas en conjunto. 
+
+CARACTERISTICAS DE LAS PRUEBAS
+
+1) Faciles de escribir. 
+
+2) Faciles de leer.
+
+3) Confiables. 
+
+4) Rapidas.
+
+5) Principalmente unitarias. 
+
+Estos pasos se aplican y son conocidos como AAA que son las siglas de Arrange (arreglar), Act (actuar), Assert (Afirmar).
+
+Arrange: Es el paso en el cual establecemos el estado inicial, usualmente se conoce como el sujeto a probar. Aca inicializamos variables y hacemos las importaciones necesarias. 
+
+Act: Es donde vamos a aplicar acciones o estimulos al sujeto de prueba. Aca llamamos metodos, simulamos clicks y realizamos acciones sobre el paso anterior.
+
+Assert: Es donde observamos el comportamiento resultante. Aca evaluamos si son los resultados esperados.
+
+MITOS
+
+# Hace que mi aplicacion no tenga errores: Esto no es cierto, porque las pruebas son realizadas por la misma persona que realizo el codigo o por el mismo equipo que lo realizo, asi que al estar realizado por el humano es posible de que de todas formas la aplicacion contenga errores. 
+
+# Las pruebas no pueden fallar: Tampoco es cierto, nosotros podemos hacer pruebas que arrojen falsos negativos como falsos positivos, puede que la aplicacion funcione pero la prueba no funcione o viceversa. 
+
+# Hace mas lenta mi aplicacion: Esto no es cierto porque las pruebas corren en la maquina de desarrollo y no se pasan a produccion, esto quiere decir que las pruebas se ejecutan de manera local donde estamos desarrollando la aplicacion. 
+
+# Es una perdida de tiempo: En parte si lo es, pero lo es si nosotros hacemos pruebas de cosas que no tienen sentido probar. 
+
+# Hay que probar todo: Esto no es del todo cierto, porque esto nos podria llevar el mismo tiempo o mas del que nos llevo desarrollar la aplicacion, lo ideal es probar las caracteriscas principales de mi aplicacion a no ser que tengamos mucho tiempo y podamos probar mas cosas. 
+
